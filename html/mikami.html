@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Science Officer Hideo Mikami</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/global-styles.css">
+	<script type="text/javascript" src="../js/audioPlayer.js"></script>
+</head>
+<body>
+	<audio id="mikami_1" height="300" width="32" ontimeupdate="updateTime('songTime','songSlider','trackProgress')" onended="resetImage('image1')"><source src="../media/Audio/Logs/Mikami/Mikami, 15-5-2258.mp3" type="audio/mpeg"></audio>
+	<audio id="mikami_2" height="300" width="32" ontimeupdate="updateTime('songTime2','songSlider2','trackProgress2')" onended="resetImage('image2')"><source src="../media/Audio/Logs/Mikami/Mikami, 22-5-2258.mp3" type="audio/mpeg"></audio>
+	<br>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<h4>Sent: 15-5-2258, 11:04:29</h4>
+	<div id="audioPlayer1">
+		<div id="songPlayPause" onclick="playPause('mikami_1','image1')"><img id="image1" src="../media/play.png" width="50" height="50" alt="Play/Pause"></div>
+		<div id="songStop" onclick="stop('image1')"><img src="../media/stop.png" width="50" heigt="50" alt="Stop"></div>
+		<div id="songTime">0:00/0:00</div>
+		<div id="songSlider" onclick="setSongPosition(this,event)">
+			<div id="trackProgress"></div>
+		</div>
+		<div id="volumeMeter" onclick="setNewVolume(this,event)" ondrag="setNewVolume(this,event)">
+			<div id="volumeStatus"></div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<h4>Sent: 22-5-2258, 17:54:09</h4>
+	<div id="audioPlayer2">
+		<div id="songPlayPause" onclick="playPause('mikami_2','image2')"><img id="image2" src="../media/play.png" width="50" height="50" alt="Play/Pause"></div>
+		<div id="songStop" onclick="stop('image2')"><img src="../media/stop.png" width="50" heigt="50" alt="Stop"></div>
+		<div id="songTime2">0:00/0:00</div>
+		<div id="songSlider2" onclick="setSongPosition(this,event)">
+			<div id="trackProgress2"></div>
+		</div>
+		<div id="volumeMeter" onclick="setNewVolume(this,event)" ondrag="setNewVolume(this,event)">
+			<div id="volumeStatus"></div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="back">
+		<a href="logs.html">Back</a>
+	</div>
+	<br>
+	<br>
+</body>
+</html>

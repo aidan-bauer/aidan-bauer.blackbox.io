@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Captain Lawrence Anderson</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/global-styles.css">
+	<script type="text/javascript" src="../js/audioPlayer.js"></script>
+</head>
+<body>
+	<!--the audio players w/out controls-->
+	<audio id="anderson_1" width="300" height="32" ontimeupdate="updateTime('songTime','songSlider','trackProgress')" onended="resetImage('image1')"><source src="../media/Audio/Logs/Anderson/Anderson, 1-5-2258.mp3"></audio>
+	<audio id="anderson_2" width="300" height="32" ontimeupdate="updateTime('songTime2','songSlider2','trackProgress2')" onended="resetImage('image2')"><source src="../media/Audio/Logs/Anderson/Anderson, 19-4-2258 final.mp3" type="audio/mpeg"></audio>
+	<br>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<h4>Sent: 1/5/2258, 15:04:23</h4>
+	<div id="audioPlayer1">
+		<div id="songPlayPause" onclick="playPause('anderson_1','image1')"><img id="image1" src="../media/play.png" width="50" height="50" alt="Play/Pause"></div>
+		<div id="songStop" onclick="stop('image1')"><img src="../media/stop.png" width="50" heigt="50" alt="Stop"></div>
+		<div id="songTime">0:00/0:00</div>
+		<div id="songSlider" onclick="setSongPosition(this,event)">
+			<div id="trackProgress"></div>
+		</div>
+		<div id="volumeMeter" onclick="setNewVolume(this,event)" ondrag="setNewVolume(this,event)">
+			<div id="volumeStatus"></div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<h4>Sent: 19/5/2258, 20:47:59</h4>
+	<div id="audioPlayer2">
+		<div id="songPlayPause" onclick="playPause('anderson_2','image2')"><img id="image2" src="../media/play.png" width="50" height="50" alt="Play/Pause"></div>
+		<div id="songStop" onclick="stop('image2')"><img src="../media/stop.png" width="50" heigt="50" alt="Stop"></div>
+		<div id="songTime2">0:00/0:00</div>
+		<div id="songSlider2" onclick="setSongPosition(this,event)">
+			<div id="trackProgress2"></div>
+		</div>
+		<div id="volumeMeter" onclick="setNewVolume(this,event)" ondrag="setNewVolume(this,event)">
+			<div id="volumeStatus"></div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<p>[file missing]</p>
+	<br>
+	<br>
+	<br>
+	<div id="back">
+		<a href="logs.html">Back</a>
+	<div>
+	<br>
+	<br>
+</body>
+</html>

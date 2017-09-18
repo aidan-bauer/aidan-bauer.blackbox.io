@@ -1,0 +1,94 @@
+body {
+	background: #000000;
+	color: #32cd32;
+	font-family: "Courier New", serif;
+	width: 1000px;
+	margin: 0 auto;
+	background-position: center center;
+}
+
+h1 {
+	color: #32cd32;
+	padding: 5px 10px;
+}
+
+#sent{
+	font-weight: bold;
+}
+
+#audioPlayer1, #audioPlayer2 {
+	background: #539153;
+	background-color: #539153;
+}
+
+#songPlayPause {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+#songStop {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+}
+
+#songTime,#songTime2 {
+	width: 25px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	padding-top: 18px;
+}
+
+#songSlider, #songSlider2 {
+	background: #696969;
+	height: 15px;
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 18px;
+	margin-left: 60px;
+}
+
+#trackProgress, #trackProgress2 {
+	background: #32cd32;
+	height: 15px;
+	width: 150px;
+	float: left;
+}
+
+#volumeMeter {
+	background: #696969;
+	width: 75px;
+	height: 15px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 30px;
+}
+
+#volumeStatus {
+	float: left;
+	background: #32cd32;
+	height: 15px;
+	width: 75px;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: #32cd32;
+}
+
+li,a:link {
+	text-decoration: none;
+	color: #32cd32;
+}
+
+a:hover{
+	text-decoration: none;
+	background: #32cd32;
+	color: #000000;
+}
